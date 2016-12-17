@@ -1,0 +1,28 @@
+#+TITLE:       language.cmake README
+#+AUTHOR:      Jan Moringen
+#+EMAIL:       jmoringe@techfak.uni-bielefeld.de
+#+DESCRIPTION:
+#+KEYWORDS:    cmake, model, parser, evaluator, simulation, esrap
+#+LANGUAGE:    en
+
+* Introduction
+
+  This system implements most of the [[https://cmake.org][CMake]] language and some parts of
+  the associated standard library.
+
+  Why this project? This system is not intended (and cannot be used)
+  as a replacement for the original CMake software package. Instead,
+  it is intended for simulated execution and analysis of CMake
+  programs in order to answer questions such as "Which CMake packages,
+  pkg-config modules and programs are required to build this CMake
+  project?".
+
+* TODO Tutorial
+
+* TODO Reference
+
+* Settings                                                         :noexport:
+
+  #+OPTIONS: H:3 num:nil toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+  #+OPTIONS: TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+  #+SEQ_TODO: TODO STARTED | DONE
